@@ -1,26 +1,29 @@
 # jlpt-anki-cards
 
 ## Aim
-Use a vocabulary list and `https://takoboto.jp/?q` to generate Anki cards
+Generate anki cards with
+* a vocabulary list
+* pitch information from `https://takoboto.jp/?q` (see below)
+* chatbot to sort cards according to categories
 
 ## Anki cards
 ### Field explanations
 Target Word
-* in Liste
+* in vocabulary list
 
 Reading
-* in Liste
+* in vocabulary list
 
 Pitch Accent
-* schreibt Esther gerade zusammen
+* tbd by learner
 
-Pitch Peak
-* x <- Silbenindex vom border-right (1..n)
-* w <- kein border-right auf dem reading-span
-* s <- border-right auf dem reading-span
+Pitch Peak (xw / xs)
+* x <- index of syllable with border-right (1..n)
+* w <- if no border-right is on the reading-`span`
+* s <- if border-right is on the reading-`span`
 
 Definition
-* in Liste
+* in vocabulary list
 
 ### Export example
 Located in directory `examples/`.
