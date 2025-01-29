@@ -23,5 +23,5 @@ Definition
 * in Liste
 
 ### Export example
-Located in file `example.txt`
+Located in directory `examples/`.
 
