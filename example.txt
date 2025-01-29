@@ -1,0 +1,4 @@
+#separator:tab
+#html:true
+#tags column:8
+Po		p+o	red	1s	Hintern		(jp)grammar_n5
