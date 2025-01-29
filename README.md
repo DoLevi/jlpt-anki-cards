@@ -2,20 +2,23 @@
 
 ## Aim
 Generate anki cards with
-* a vocabulary list
-* pitch information from `https://takoboto.jp/?q` (see below)
-* chatbot to sort cards according to categories
+* a vocabulary list https://www.kanshudo.com/collections/wikipedia\_jlpt
+* ~~pitch information from `https://takoboto.jp/?q` (see below)~~
+* ~~chatbot to sort cards according to categories~~
 
 ## Anki cards
 ### Field explanations
 Target Word
-* in vocabulary list
+* in vocabulary list in target language
 
 Reading
-* in vocabulary list
+* in vocabulary list in target language
+
+Sentence
+* in vocabulary list in target language
 
 Pitch Accent
-* tbd by learner
+* documented by learner
 
 Pitch Peak (xw / xs)
 * x <- index of syllable with border-right (1..n)
@@ -23,7 +26,10 @@ Pitch Peak (xw / xs)
 * s <- if border-right is on the reading-`span`
 
 Definition
-* in vocabulary list
+* in vocabulary list (just take all verbatim)
+
+Tag
+* `(jp)vocab\_n5..1`
 
 ### Export example
 Located in directory `examples/`.
