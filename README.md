@@ -2,7 +2,7 @@
 
 ## Aim
 Generate anki cards with
-* a vocabulary list https://www.kanshudo.com/collections/wikipedia\_jlpt
+* a vocabulary list https://www.kanshudo.com/collections/wikipedia_jlpt
 * ~~pitch information from `https://takoboto.jp/?q` (see below)~~
 * ~~chatbot to sort cards according to categories~~
 
