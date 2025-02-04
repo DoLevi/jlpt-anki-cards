@@ -26,7 +26,7 @@ def scrape_reading(browser, kanji, reading):
         except:
             browser.execute_script('arguments[0].parentNode.removeChild(arguments[0]);', reading.find_element(By.CSS_SELECTOR, 'span:last-child'))
     except:
-        reading = browser.find_element(By.XPATH, '//*[contains(@class, WordJapDiv)]/div/span')
+        reading = browser.find_element(By.XPATH, '//*[@id="SearchResultSideContent"]//*[contains(@class, WordJapDiv)]/div/span')
     return reading.get_attribute('outerHTML')
 
 
